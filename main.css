@@ -3,20 +3,22 @@
   border: 0.1em solid blue;
   box-shadow: 0 10px (darkblue);
 }
-.red,
-.green,
-.blue {
-  float: left;
-  clear: left;
-  width: 300px;
-  margin: 15px;
+.content{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+}
+.sliders {
+width: 300px;
+}
+.green{
+  margin: 2em 0;
 }
 
 .back {
-  width: 120px;
-  height: 100px;
-  margin-top: 18px;
-  margin-left: 350px;
+  width: 220px;
+  height: 200px;
+  margin-left: 2em;
   background-image: none;
   text-align: center;
 }
@@ -49,4 +51,5 @@
 }
 .lorem {
   font-size: 1.1em;
+  padding-bottom: 0.2em;
 }
