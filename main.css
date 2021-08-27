@@ -1,48 +1,52 @@
-.active{
- background-color: aqua;
- border: 0.1em solid blue;
- box-shadow: 0 5px (darkblue);
+.active {
+  background-color: aqua;
+  border: 0.1em solid blue;
+  box-shadow: 0 10px (darkblue);
 }
 .red,
 .green,
 .blue {
- float: left;
- clear: left;
- width: 300px;
- margin: 15px;
+  float: left;
+  clear: left;
+  width: 300px;
+  margin: 15px;
 }
 
 .back {
- width: 120px;
- height: 100px;
- margin-top: 18px;
- margin-left: 350px;
- background-image: none;
+  width: 120px;
+  height: 100px;
+  margin-top: 18px;
+  margin-left: 350px;
+  background-image: none;
+  text-align: center;
 }
 .button-back,
 .button-text {
-min-width: 100px;
+  min-width: 100px;
 }
 .red .ui-slider-range {
- background: #ef2929;
+  background: #ef2929;
 }
 
 .red .ui-slider-handle {
- border-color: #ef2929;
+  border-color: #ef2929;
 }
 
 .green .ui-slider-range {
- background: #8ae234;
+  background: #8ae234;
 }
 
 .green .ui-slider-handle {
- border-color: #8ae234;
+  border-color: #8ae234;
 }
 
 .blue .ui-slider-range {
- background: #729fcf;
+  background: #729fcf;
 }
 
 .blue .ui-slider-handle {
- border-color: #729fcf;
+  border-color: #729fcf;
+}
+.lorem {
+  font-size: 1.1em;
 }
